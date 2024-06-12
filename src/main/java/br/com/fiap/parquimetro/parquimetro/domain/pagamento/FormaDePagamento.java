@@ -1,4 +1,4 @@
-package br.com.fiap.parquimetro.parquimetro.entities.pagamento;
+package br.com.fiap.parquimetro.parquimetro.domain.pagamento;
 
 public enum FormaDePagamento {
     DINHEIRO,

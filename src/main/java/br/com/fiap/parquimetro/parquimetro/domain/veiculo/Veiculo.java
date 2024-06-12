@@ -3,18 +3,14 @@ package br.com.fiap.parquimetro.parquimetro.entities.veiculo;
 import jakarta.persistence.*;
 import lombok.*;
 
-@Table(name = "veiculos")
-@Entity(name = "veiculo")
+
 @Getter
 @Setter
 @NoArgsConstructor
-@EqualsAndHashCode(of = "idVeiculo")
 
 public class Veiculo {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long idVeiculo;
+
     private String modelo;
     private String placa;
 
@@ -23,4 +19,22 @@ public class Veiculo {
         this.placa = placa;
     }
 
+    public Veiculo() {
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
 }
