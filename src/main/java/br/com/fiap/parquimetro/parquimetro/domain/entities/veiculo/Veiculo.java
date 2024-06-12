@@ -1,12 +1,4 @@
-package br.com.fiap.parquimetro.parquimetro.entities.veiculo;
-
-import jakarta.persistence.*;
-import lombok.*;
-
-
-@Getter
-@Setter
-@NoArgsConstructor
+package br.com.fiap.parquimetro.parquimetro.domain.entities.veiculo;
 
 public class Veiculo {
 
