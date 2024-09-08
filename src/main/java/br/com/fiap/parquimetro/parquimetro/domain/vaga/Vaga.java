@@ -1,6 +1,6 @@
-package br.com.fiap.parquimetro.parquimetro.domain.entities.vaga;
+package br.com.fiap.parquimetro.parquimetro.domain.vaga;
 
-import br.com.fiap.parquimetro.parquimetro.domain.entities.veiculo.Veiculo;
+import br.com.fiap.parquimetro.parquimetro.domain.veiculo.Veiculo;
 
 public class Vaga {
 

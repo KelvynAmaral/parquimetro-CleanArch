@@ -1,4 +1,4 @@
-package br.com.fiap.parquimetro.parquimetro.domain.entities.pagamento;
+package br.com.fiap.parquimetro.parquimetro.domain.pagamento;
 
 
 import java.time.LocalDateTime;
@@ -10,7 +10,7 @@ public class Pagamento {
     private LocalDateTime horaEntrada;
     private LocalDateTime horaSaida;
     private double valor;
-
+    private FormaDePagamento formaDePagamento;
 
     public Pagamento() {
     }
@@ -20,7 +20,7 @@ public class Pagamento {
         this.horaEntrada = horaEntrada;
         this.horaSaida = horaSaida;
         this.valor = valor;
-
+        this.formaDePagamento = formaDePagamento;
     }
 
     public long getId() {
@@ -63,4 +63,11 @@ public class Pagamento {
         this.valor = valor;
     }
 
+    public FormaDePagamento getFormaDePagamento() {
+        return formaDePagamento;
+    }
+
+    public void setFormaDePagamento(FormaDePagamento formaDePagamento) {
+        this.formaDePagamento = formaDePagamento;
+    }
 }

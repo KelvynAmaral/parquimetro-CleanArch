@@ -1,7 +1,7 @@
 package br.com.fiap.parquimetro.parquimetro.aplication.usecases;
 
-import br.com.fiap.parquimetro.parquimetro.aplication.gateways.VeiculoRepository;
-import br.com.fiap.parquimetro.parquimetro.domain.entities.veiculo.Veiculo;
+import br.com.fiap.parquimetro.parquimetro.adapters.VeiculoRepository;
+import br.com.fiap.parquimetro.parquimetro.domain.veiculo.Veiculo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

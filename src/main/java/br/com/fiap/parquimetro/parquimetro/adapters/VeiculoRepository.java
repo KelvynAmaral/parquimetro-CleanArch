@@ -1,6 +1,6 @@
-package br.com.fiap.parquimetro.parquimetro.aplication.gateways;
+package br.com.fiap.parquimetro.parquimetro.adapters;
 
-import br.com.fiap.parquimetro.parquimetro.domain.entities.veiculo.Veiculo;
+import br.com.fiap.parquimetro.parquimetro.domain.veiculo.Veiculo;
 
 import java.util.List;
 import java.util.Optional;
